@@ -2,7 +2,10 @@
 **Author:** Ali Cihan Ozdemir (Student ID: 9091405)
 
 ## 📌 Project Overview
-This project focuses on resolving a classic binary image classification problem: distinguishing between images of **Dogs and Cats**. To ensure computational efficiency and objective analysis, the dataset utilized is a symmetrically balanced 5,000-image subset extracted from the core corpus (2,500 dogs and 2,500 cats).
+This project focuses on resolving a classic binary image classification problem: distinguishing between images of **Dogs and Cats**.
+
+### 📁 Dataset Source
+As officially requested, this lab utilizes the **[Official Microsoft Kaggle Cats and Dogs Dataset](https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip)** provided by Microsoft Research. To ensure computational efficiency and objective analysis, the working dataset is deliberately isolated as a symmetrically balanced **5,000-image subset** (2,500 dogs and 2,500 cats) algorithmically extracted from the original 25,000 image pool.
 
 ## 🔬 Methodology
 In this laboratory, two distinct Deep Learning models are architected, trained, and comparatively evaluated:
