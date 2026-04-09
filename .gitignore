@@ -1,0 +1,17 @@
+# Locally Generated Model Weights
+*.h5
+*.keras
+*.hdf5
+
+# Downloaded and Extracted Image Data
+*.zip
+cats_and_dogs/
+dataset/
+data/
+subset_dataset/
+PetImages/
+
+# Python Environments & Jupyter Caches
+.ipynb_checkpoints/
+__pycache__/
+venv/
