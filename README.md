@@ -28,12 +28,28 @@ To comprehensively validate mapping behavior and class predictability beyond tri
 ## ⚙️ Repository Structure & How to Run
 This repository is engineered to be exceptionally minimal and strictly academic. Large raw datasets, mapped image extractions, localized weight caches, and environment directories are strictly excluded via the provided `.gitignore`. 
 
-### Execution
-1. Install the required libraries locally:
+### Execution (Best Practice: Virtual Environment)
+To prevent unexpected dependency conflicts and adhere to modern best practices, we highly recommend executing this project within a clean Python virtual environment.
+
+1. **Initialize the virtual environment:**
    ```bash
+   python3 -m venv venv
+   ```
+2. **Activate the environment:**
+   - On **macOS/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+   - On **Windows**:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+3. **Install the required dependencies:**
+   ```bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
-2. Launch the fully self-contained notebook:
+4. **Launch the fully self-contained notebook:**
    ```bash
    jupyter notebook Lab3_Dogs_vs_Cats.ipynb
    ```
